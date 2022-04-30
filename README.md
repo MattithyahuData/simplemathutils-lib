@@ -1,5 +1,5 @@
 <h1 align="center">
-<img src="/images/library-logo.png" width="300">
+<img src="/images/library-logo.jpg" width="300">
 </h1><br>
 
 
