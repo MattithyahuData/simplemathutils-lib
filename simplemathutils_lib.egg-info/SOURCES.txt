@@ -1,0 +1,7 @@
+LICENSE.txt
+setup.py
+simplemathutils_lib/__init__.py
+simplemathutils_lib.egg-info/PKG-INFO
+simplemathutils_lib.egg-info/SOURCES.txt
+simplemathutils_lib.egg-info/dependency_links.txt
+simplemathutils_lib.egg-info/top_level.txt

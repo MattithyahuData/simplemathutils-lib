@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: simplemathutils-lib
+Version: 0.0.1
+Summary: Python package 1.0
+Home-page: UNKNOWN
+Author: Mattithyahu O
+Author-email: contactmattithyahu@gmail.com
+License: UNKNOWN
+Keywords: python,first package
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+License-File: LICENSE.txt
+
+Python package 1.0 longer description
+
