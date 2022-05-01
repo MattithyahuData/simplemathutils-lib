@@ -39,3 +39,13 @@ def division(x,y):
 
     # Returning the divion of the 1st parameter by the 2nd 
     return x/y
+
+def sqrd(x,y):
+    ''' Square function 
+
+        Returns: 
+        value squared   
+    '''
+
+    # Returning the divion of the 1st parameter by the 2nd 
+    return x*x

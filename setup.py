@@ -1,8 +1,21 @@
 from setuptools import setup, find_packages
+from git import Repo
 
-VERSION = '0.0.1' 
+# Initialising repository
+repo = Repo()
+
+# Getting number of commits 
+commits = len(list(repo.iter_commits()))
+
+# Dividing number of commits by 100 
+verse = float(commits/100) 
+
+# Incrementing version by 0.01
+version = verse + 0.01
+
+VERSION = f'{version}' 
 DESCRIPTION = 'Python package 1.0'
-LONG_DESCRIPTION = 'Python package 1.0 longer description'
+LONG_DESCRIPTION = 'Math -----'
 
 # Setting up
 setup(
@@ -17,11 +30,8 @@ setup(
         install_requires=[], # add any additional packages that 
         # needs to be installed along with your package. Eg: 'caer'
         
-        keywords=['python', 'first package'],
+        keywords=['python', 'math'],
         classifiers= [
-            "Development Status :: 3 - Alpha",
-            "Intended Audience :: Education",
-            "Programming Language :: Python :: 2",
             "Programming Language :: Python :: 3",
             "Operating System :: MacOS :: MacOS X",
             "Operating System :: Microsoft :: Windows",
