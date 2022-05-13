@@ -1,39 +1,41 @@
 from setuptools import setup, find_packages
-from git import Repo
 
-# Initialising repository
-repo = Repo()
+# Reading in README as text for description 
+with open("Description.md", "r", encoding="utf-8") as fh:
+    LONG_DESCRIPTION = fh.read()
 
-# Getting number of commits 
-commits = len(list(repo.iter_commits()))
+# Versioning and Description 
+VERSION = '0.0.9'
+DESCRIPTION = 'simplemathutils-lib is a creative package for basic mathematical operations with Python.'
 
-# Dividing number of commits by 100 
-verse = float(commits/100) 
 
-# Incrementing version by 0.01
-version = verse + 0.01
+CLASSIFIERS = [
+            "Development Status :: 5 - Production/Stable",
+            "Intended Audience :: Science/Research",
+            "Intended Audience :: Developers",
+            "License :: OSI Approved :: MIT License",
+            "Programming Language :: Python :: 3",
+            "Topic :: Software Development",
+            "Topic :: Scientific/Engineering",
+            "Typing :: Typed",
+            "Operating System :: MacOS :: MacOS X",
+            "Operating System :: Microsoft :: Windows",
+                ]
 
-VERSION = f'{version}' 
-DESCRIPTION = 'Python package 1.0'
-LONG_DESCRIPTION = 'Math -----'
-
-# Setting up
 setup(
-       # the name must match the folder name 'verysimplemodule'
         name="simplemathutils_lib", 
         version=VERSION,
         author="Mattithyahu O",
         author_email="contactmattithyahu@gmail.com",
+        url="https://github.com/MattithyahuData/simplemathutils-lib",
         description=DESCRIPTION,
         long_description=LONG_DESCRIPTION,
+        long_description_content_type="text/markdown",
         packages=find_packages(),
-        install_requires=[], # add any additional packages that 
-        # needs to be installed along with your package. Eg: 'caer'
-        
-        keywords=['python', 'math'],
-        classifiers= [
-            "Programming Language :: Python :: 3",
-            "Operating System :: MacOS :: MacOS X",
-            "Operating System :: Microsoft :: Windows",
-        ]
+        install_requires=[], 
+        keywords=['math'],
+        classifiers= CLASSIFIERS,
+        python_requires=">=3.6",
 )
+
+

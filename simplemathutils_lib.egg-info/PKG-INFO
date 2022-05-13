@@ -1,20 +1,72 @@
 Metadata-Version: 2.1
 Name: simplemathutils-lib
-Version: 0.0.1
-Summary: Python package 1.0
-Home-page: UNKNOWN
+Version: 0.0.9
+Summary: simplemathutils-lib is a creative package for basic mathematical operations with Python.
+Home-page: https://github.com/MattithyahuData/simplemathutils-lib
 Author: Mattithyahu O
 Author-email: contactmattithyahu@gmail.com
 License: UNKNOWN
-Keywords: python,first package
+Keywords: math
 Platform: UNKNOWN
-Classifier: Development Status :: 3 - Alpha
-Classifier: Intended Audience :: Education
-Classifier: Programming Language :: Python :: 2
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
 Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development
+Classifier: Topic :: Scientific/Engineering
+Classifier: Typing :: Typed
 Classifier: Operating System :: MacOS :: MacOS X
 Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
 License-File: LICENSE.txt
 
-Python package 1.0 longer description
+## simplemathutils-lib
+
+`simplemathutils-lib` is a creative package for basic mathematical operations with Python.
+
+All simplemathutils-lib wheels distributed on pypi are MIT licensed.
+
+## Requirements
+
+simplemathutils-lib requires python 3.6 or greater.
+
+## Installation
+
+Install with pip:
+
+```
+pip install simplemathutils-lib
+```
+
+If you are using the old version of simplemathutils-lib and want to update it:
+
+```
+pip install --upgrade simplemathutils-lib
+```
+
+## Examples
+
+```python
+import simplemathutils_lib as simplemath
+
+simplemath.add(2,1) 
+# Output: 3
+
+simplemath.subtract(2,1)
+# Output: 1
+
+simplemath.multiply(2,1)
+# Output: 2
+
+simplemath.divide(2,1)
+# Output: 2
+```
+
+## Contribute
+
+Feel free to open pull requests to expand this documentation, add features or fix problems.
+
+
 
