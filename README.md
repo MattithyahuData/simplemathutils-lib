@@ -4,7 +4,7 @@
 
 ## simplemathutils-lib
 
-[![Downloads](https://static.pepy.tech/badge/simplemathutils_lib)](https://static.pepy.tech/badge/simplemathutils_lib) ![Version](https://img.shields.io/badge/version-0.0.9-blue) ![Python-Version](https://img.shields.io/badge/python-3.6-blue) ![issues](https://img.shields.io/github/issues/Mattithyahudata/simplemathutils-lib) ![PyPI - Status](https://img.shields.io/pypi/status/simplemathutils-lib) ![License](https://img.shields.io/github/license/Mattithyahudata/simplemathutils-lib) [![Stack Overflow](https://img.shields.io/badge/stackoverflow-Ask%20questions-blue.svg)](
+[![Downloads](https://static.pepy.tech/badge/simplemathutils_lib)](https://static.pepy.tech/badge/simplemathutils_lib) ![Version](https://img.shields.io/badge/version-0.1.0-blue) ![Python-Version](https://img.shields.io/badge/python-3.6-blue) ![issues](https://img.shields.io/github/issues/Mattithyahudata/simplemathutils-lib) ![PyPI - Status](https://img.shields.io/pypi/status/simplemathutils-lib) ![License](https://img.shields.io/github/license/Mattithyahudata/simplemathutils-lib) [![Stack Overflow](https://img.shields.io/badge/stackoverflow-Ask%20questions-blue.svg)](
 https://stackoverflow.com/questions/tagged/simplemathutils_lib)
 
 `simplemathutils-lib` is a creative package for basic mathematical operations with Python.
