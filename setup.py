@@ -1,11 +1,11 @@
 from setuptools import setup, find_packages
 
 # Reading in README as text for description 
-with open("images & text/Description.md", "r", encoding="utf-8") as fh:
+with open("README.md", "r", encoding="utf-8") as fh:
     LONG_DESCRIPTION = fh.read()
 
 # Versioning and Description 
-VERSION = '0.1.0'
+VERSION = '0.1.1'
 DESCRIPTION = 'simplemathutils-lib is a creative package for basic mathematical operations with Python.'
 
 

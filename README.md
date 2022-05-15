@@ -1,5 +1,5 @@
 <h1 align="center">
-<img src="/images & text/library-logo.jpg" width="300">
+<img src="/images & text/official_logo.jpg" width="300">
 </h1><br>
 
 ## simplemathutils-lib
