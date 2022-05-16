@@ -6,6 +6,9 @@
 # $ git config --global mergetool.keepBackup false
 *.orig
 
+## Private ##
+To do.txt
+
 # Created by git when using merge tools for conflicts
 *.BACKUP.*
 *.BASE.*

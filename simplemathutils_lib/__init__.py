@@ -1,3 +1,3 @@
-# importing SimpleMath class in constructor file | TOP LEVEL OF THE PACKAGE
+# importing functions class in constructor file/top level of the package
 from .simplemath import *
-from .class_simplemath import SimpleMath
+# from .class_simplemath import SimpleMath

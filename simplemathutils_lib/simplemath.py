@@ -1,17 +1,30 @@
-def add(num1: int or float,num2: int or float):
-        ''' 
-        Returning the addition of 2 inputs.
+def add(*args:int or float):
+    ''' 
+    Returning the sum of the inputs.
 
-        :param num1: The first number. | Datatype: int or float
-        :param num2: The second number. | Datatype: int or float
+    :param args: Any integer or float | Datatype: int or float
 
-        Returns: 
-        1st paramter + 2nd parameter  
+    Returns: 
+    Sum of arguments   
 
-        '''
+    '''
+    
+    try:
+        # Initiating total variable equal to 0
+        total = 0
 
-        # Returning sum of 2 values 
-        return num1+num2
+        # For loop to iterate over tuple indexes and add totals  
+        for i in args:
+            total += i
+            
+        # Returning total     
+        return total
+    
+
+    except TypeError:
+
+        # exception error for incorrect datatype 
+        print("TypeError: Arguments can only be integer or float type.")
 
 
 def subtract(num1: int or float,num2: int or float):
@@ -30,20 +43,33 @@ def subtract(num1: int or float,num2: int or float):
     return num1-num2
 
 
-def multiply(num1: int or float,num2: int or float):
+def multiply(*args:int or float):
     ''' 
-    Returning the product of 2 inputs. 
+    Returning the product of the inputs.
 
-    :param num1: The first number. | Datatype: int or float
-    :param num2: The second number. | Datatype: int or float
+    :param args: Any integer or float | Datatype: int or float
 
     Returns: 
-    1st paramter * 2nd parameter  
+    Product of arguments   
 
     '''
+    
+    try:
+        # Initiating total variable equal to 1
+        total = 1
 
-    # Returning 1st paramter * 2nd parameter  
-    return num1*num2
+        # For loop to iterate over tuple indexes and multiply totals  
+        for i in args:
+            total *= i
+            
+        # Returning total     
+        return total
+    
+
+    except TypeError:
+
+        # exception error for incorrect datatype 
+        print("TypeError: Arguments can only be integer or float type.")
 
 
 def divide(num1: int or float,num2: int or float):

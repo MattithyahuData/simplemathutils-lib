@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     LONG_DESCRIPTION = fh.read()
 
 # Versioning and Description 
-VERSION = '0.1.1'
+VERSION = '0.1.2'
 DESCRIPTION = 'simplemathutils-lib is a creative package for basic mathematical operations with Python.'
 
 
