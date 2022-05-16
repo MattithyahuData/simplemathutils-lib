@@ -1,3 +1,0 @@
-- Add all inputs function
-- Carry out proper unit tests 
-- ability to add all number inputs 
