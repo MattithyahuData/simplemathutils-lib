@@ -4,7 +4,7 @@
 
 ## **simplemathutils-lib**
 
-[![Downloads](https://static.pepy.tech/badge/simplemathutils_lib)](https://static.pepy.tech/badge/simplemathutils_lib) ![release](https://img.shields.io/github/v/release/MattithyahuData/simplemathutils-lib) ![Python-Version](https://img.shields.io/badge/python-3.6-blue) ![issues](https://img.shields.io/github/issues/Mattithyahudata/simplemathutils-lib) ![PyPI - Status](https://img.shields.io/pypi/status/simplemathutils-lib) ![License](https://img.shields.io/github/license/Mattithyahudata/simplemathutils-lib) [![Stack Overflow](https://img.shields.io/badge/stackoverflow-Ask%20questions-blue.svg)](
+[![Downloads](https://static.pepy.tech/badge/simplemathutils_lib)](https://static.pepy.tech/badge/simplemathutils_lib) ![release](https://img.shields.io/github/v/release/MattithyahuData/simplemathutils-lib) ![Python-Version](https://img.shields.io/badge/Python-3.6%2B-blue.svg) ![issues](https://img.shields.io/github/issues/Mattithyahudata/simplemathutils-lib) ![PyPI - Status](https://img.shields.io/pypi/status/simplemathutils-lib) ![License](https://img.shields.io/github/license/Mattithyahudata/simplemathutils-lib) [![Stack Overflow](https://img.shields.io/badge/stackoverflow-Ask%20questions-yellow.svg)](
 https://stackoverflow.com/questions/tagged/simplemathutils_lib)
 
 `simplemathutils-lib` is a creative package for basic mathematical operations with Python.
